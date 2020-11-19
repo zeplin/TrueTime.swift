@@ -1016,6 +1016,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Debug;
 		};
@@ -1036,6 +1037,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Release;
 		};
@@ -1302,6 +1304,7 @@
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT) $(SRCROOT)/Sources/CTrueTime";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Debug;
 		};
@@ -1329,6 +1332,7 @@
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT) $(SRCROOT)/Sources/CTrueTime";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
+				VALID_ARCHS = "x86_64 arm64";
 			};
 			name = Release;
 		};
